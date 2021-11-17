@@ -8,9 +8,9 @@
 
 简单易用的 go 依赖注入容器，类似于js中N年前requirejs的注入方式，要注意的是如果创建实例不成功则需要panic(err)来处理。
 
-这里的.Singleton(func (aInstance Atype, bInstance Btype,...) XType {})类似requirejs的 define(["a","b",...],function(aInstance,bInstance,...){ return xInstance })
+这里的`.Singleton(func (aInstance Atype, bInstance Btype,...) XType {})`类似requirejs的 `define(["a","b",...],function(aInstance,bInstance,...){ return xInstance })`.
 
-这里的.Call(func (aInstance Atype, bInstance Btype,...) {})类似requirejs的 require(["a","b",...],function(aInstance,bInstance,...){})
+这里的`.Call(func (aInstance Atype, bInstance Btype,...) {})`类似requirejs的 `require(["a","b",...],function(aInstance,bInstance,...){})`.
 
 
 # Container
