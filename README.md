@@ -5,6 +5,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/golobby/container/badge.svg?v=3)](https://coveralls.io/github/golobby/container?branch=master)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
 
+
+简单易用的 go 依赖注入容器，类似于js中N年前requirejs的注入方式，要注意的是如果创建实例不成功则需要panic(err)来处理。
+
 # Container
 GoLobby Container is a lightweight yet powerful IoC (dependency injection) container for Go projects.
 It's built neat, easy-to-use, and performance-in-mind to be your ultimate requirement.
